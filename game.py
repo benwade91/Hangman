@@ -1,12 +1,7 @@
-#Step 5
-
 import random
 import hangman_art
 import hangman_words
-# from replit import clear
 
-#TODO-1: - Update the word list to use the 'word_list' from hangman_words.py
-#Delete this line: word_list = ["ardvark", "baboon", "camel"]
 stages = hangman_art.stages
 word_list = hangman_words.word_list
 chosen_word = random.choice(word_list)
@@ -15,12 +10,8 @@ word_length = len(chosen_word)
 end_of_game = False
 lives = 6
 
-#TODO-3: - Import the logo from hangman_art.py and print it at the start of the game.
-
 #Testing code
 print(hangman_art.logo)
-
-# print(f'Pssst, the solution is {chosen_word}.')
 
 #Create blanks
 display = []
